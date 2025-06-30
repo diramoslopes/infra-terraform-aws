@@ -8,5 +8,7 @@ resource "aws_s3_bucket" "dimais" {
   tags = {
     Name        = "My bucket Dimais"
     Environment = "Dev"
+    Owner       = "Diogo Silveira"
+    Updated     = "2025-06-30"
   }
 }
